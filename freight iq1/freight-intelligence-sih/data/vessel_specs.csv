@@ -1,0 +1,6 @@
+vessel_class,dwt_min,dwt_max,dwt_typical,loa_min,loa_max,loa_typical,beam_typical,draft_typical,cargo_handling_rate_tpd,geared,cost_index_usd_day
+Handysize,10000,40000,32000,100,190,150,23.0,10.0,8000,True,12500
+Handymax,40000,50000,45000,150,195,175,27.0,11.2,9500,True,14800
+Supramax,50000,65000,58000,180,200,190,32.3,12.5,12000,True,18200
+Panamax,65000,85000,75000,220,235,225,32.2,14.5,18000,False,22500
+Capesize,100000,220000,180000,280,310,290,45.0,18.0,25000,False,34000

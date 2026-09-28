@@ -1,0 +1,11 @@
+port_id,port_name,state,latitude,longitude,max_draft_m,max_loa_m,max_beam_m,num_berths,crane_handling_tph,tide_restriction,max_vessel_class,typical_throughput_mt
+paradip,Paradip,Odisha,20.316,86.611,14.5,295.0,45.0,18,25000,False,Capesize,138
+visakhapatnam,Visakhapatnam,Andhra Pradesh,17.686,83.218,18.0,320.0,48.0,26,22000,False,Capesize,72
+haldia,Haldia,West Bengal,22.028,88.068,8.5,210.0,31.0,24,9000,True,Handysize,42
+dhamra,Dhamra,Odisha,20.762,86.903,17.0,300.0,46.0,8,24000,False,Capesize,35
+gangavaram,Gangavaram,Andhra Pradesh,17.633,83.221,21.0,350.0,52.0,10,26000,False,Capesize,58
+gopalpur,Gopalpur,Odisha,19.267,84.900,9.0,185.0,28.0,4,8000,False,Handymax,8
+sagar,Sagar & Sandheads,West Bengal,21.650,88.100,9.5,230.0,32.0,6,10000,True,Panamax,12
+chennai,Chennai,Tamil Nadu,13.082,80.270,16.5,300.0,45.0,24,18000,False,Panamax,52
+kakinada,Kakinada Deep Water,Andhra Pradesh,16.989,82.285,14.0,240.0,34.0,7,14000,False,Panamax,22
+tuticorin,V.O. Chidambaranar (Tuticorin),Tamil Nadu,8.753,78.196,14.2,250.0,36.0,16,16000,False,Panamax,38
