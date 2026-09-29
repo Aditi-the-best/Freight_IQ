@@ -1747,27 +1747,15 @@ function renderRecommendationsView() {
         </div>
       </div>
 
-      <!-- EXPLAINABILITY AI & THEORETICAL REASONING (SIMPLIFIED THEORETICAL PARAGRAPH WITH SUBHEADINGS & POINTS) -->
+      <!-- EXPLAINABILITY AI & THEORETICAL REASONING -->
       <div class="card-elevation p-6 sm:p-8 bg-white border border-slate-200 rounded-2xl">
-        <div class="pb-4 border-b border-slate-100 mb-5">
-          <div class="flex items-center gap-2 mb-1">
+        <div class="mb-5">
+          <div class="flex items-center gap-2">
             <span class="text-[11px] font-extrabold uppercase tracking-wider text-purple-700 bg-purple-50 px-2.5 py-0.5 rounded-full border border-purple-200">
               Explainability AI
             </span>
-            <span class="text-xs text-slate-400">Core Decision Theory & Forecast Mechanics</span>
           </div>
-          <h3 class="font-bold text-slate-900 font-outfit text-xl">
-            Explainability AI & Theoretical Reasoning
-          </h3>
-          <p class="text-xs text-slate-500 mt-1">
-            Understanding how market dynamics, port constraints, and maritime physics determine the forecasted freight rate of <strong>${m.expectedPriceStr} / Ton</strong>.
-          </p>
         </div>
-
-        <!-- Normal Theoretical Introduction Paragraph -->
-        <p class="text-xs sm:text-sm text-slate-700 leading-relaxed mb-6 bg-slate-50 p-4 rounded-xl border border-slate-200/80">
-          Maritime freight rates are driven by interconnected physical, economic, and meteorological factors rather than arbitrary market speculation. Instead of treating predictions as an opaque black box, FreightIQ explains the core real-world drivers that influence voyage costs, terminal waiting times, and optimal charter timing. The sections below outline the foundational reasoning behind our forecasts.
-        </p>
 
         <!-- Subheadings with Points in Simpler Language -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -2009,14 +1997,10 @@ function renderIdleAnalysisView() {
             <span class="text-xs font-bold uppercase tracking-wider text-amber-700 bg-amber-50 px-2.5 py-0.5 rounded-full border border-amber-200">
               Indian Ports Operational Welfare
             </span>
-            <span class="text-xs text-slate-500">Live Congestion-Driven Truck Dispatch</span>
           </div>
           <h2 class="text-2xl font-bold text-slate-900 font-outfit mt-1">
             Idle Scenario Analysis
           </h2>
-          <p class="text-xs text-slate-500 mt-0.5">
-            Indian East Coast Ports · Congestion Score-Based Truck Allotment & Anti-Deadheading System
-          </p>
         </div>
         <button onclick="state.activeTab='dashboard'; renderApp();" class="text-xs bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 font-medium px-3.5 py-2 rounded-lg transition-colors shadow-sm flex items-center gap-1.5 self-start md:self-auto">
           ← Back to Route Query
